@@ -17,6 +17,7 @@ vector<int> arrbuild(vector<int> arr, string &p_name) {
 		cin >> a;
 		while (cin.fail()) {
 			cin.clear();
+			cin.ignore();
 			cout << "Incorrect element format. Try again" << endl;
 			cin >> a;
 		}
